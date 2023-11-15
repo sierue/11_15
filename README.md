@@ -10,28 +10,28 @@
 2. 목록
    순서있는 목록은 숫자와 점을 사용한다.
    1. 2. 3. 방식으로 사용한다.
-   순서가 없는 목록은 *, +, - 방식이 있으며 혼합해서 사용도 가능하다.
+   순서가 없는 목록은 "*, +, -" 방식이 있으며 혼합해서 사용도 가능하다.
 3. 수평선
    수평선은 미리보기로 출력할 때 페이지 나누기 용도로 많이 사용되며,
-   * * *, ***, *****, - - -, ----------------------- 등의 방식으로 사용할 수 있다.
+   "* * *, ***, *****, - - -, -----------------------" 등의 방식으로 사용할 수 있다.
 4. 링크
    링크는 참조링크, 외부링크, 자동연결이 있으며,
-   참조링크는 [link keyword][id]
-    [id]: URL "Optional Title here"
+   참조링크는 "[link keyword][id]"
+    "[id]: URL "Optional Title here""
     // code
-    Link: [Google][googlelink]
-    [googlelink]: https://google.com "Go google"
+    "Link: [Google][googlelink]"
+    "[googlelink]: https://google.com "Go google""
    외부링크는
-   [Title](link)
-   [Google](https://google.com, "google link")
+   "[Title](link)"
+   "[Google](https://google.com, "google link")"
    자동연결은
-   <http://example.com/>
-   <address@example.com>
+   "<http://example.com/>"
+   "<address@example.com>"
 5. 강조
    강조는 문장 사이에 강조할 때 쓰며 예시로는
-   *single asterisks*
-   _single underscores_
-   **double asterisks**
-   __double underscores__
-   ~~cancelline~~
+   "*single asterisks*"
+   "_single underscores_"
+   "**double asterisks**"
+   "__double underscores__"
+   "~~cancelline~~"
    이 있다.
